@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  height: 100%;
+  background-color: cadetblue;
+}
+.main-box{
+  width: 80%;
+  margin: 0 auto;
+  background-color:rgb(241, 241, 241);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 25px;
+}
+h1{
+  margin: 15px
+}
+p{
+  font-size: 20px;
+  font-style:oblique;
+  color: gray;
+  
+}
+.card-box{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+.card{
+  width: calc(100% / 3);
+  height: 100%;
+  background-color: white;
+  height: 400px;
+  border: 10px solid rgb(241, 241, 241);
+}
+img{
+  height: 75%;
+  width: 100%;
+}
