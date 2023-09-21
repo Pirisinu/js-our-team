@@ -18,7 +18,7 @@ const persone = [
   },
   {
     nome: 'Angela Lopez',
-    lavoro: 'Social Media Manager',a
+    lavoro: 'Social Media Manager',
     imgPersonale: 'angela-lopez-social-media-manager.jpg'
   },
   {
@@ -33,12 +33,11 @@ const persone = [
   }
 ];
 //utilizzo il 'for...of' per 
-
+let persona = '';
 for (let persona of persone){
-  persona.classlist.add('card');
   cardBox.innerHTML += ` 
   <div class="card">
-  <img src="${persona.imgPersonale}" alt="">
+  <img src="img/${persona.imgPersonale}" alt="">
   <h3>${persona.nome}</h3>
   <p>${persona.lavoro}</p>
   </div>`;
