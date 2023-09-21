@@ -36,10 +36,10 @@ const persone = [
 
 for (let persona of persone){
   persona.classlist.add('card');
-  cardBox.innerHTML += persona;
-}
-console.log(cardResult)
-//utilizzo il 'for...in' per 
-for (let persona in persone){
-  console.log(persone[persona])
+  cardBox.innerHTML += ` 
+  <div class="card">
+  <img src="${persona.imgPersonale}" alt="">
+  <h3>${persona.nome}</h3>
+  <p>${persona.lavoro}</p>
+  </div>`;
 }
