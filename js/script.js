@@ -1,3 +1,5 @@
+//
+const cardBox = document.querySelector('.card-box');
 const persone = [
   {
     nome: 'Wayne Barnett',
@@ -16,7 +18,7 @@ const persone = [
   },
   {
     nome: 'Angela Lopez',
-    lavoro: 'Social Media Manager',
+    lavoro: 'Social Media Manager',a
     imgPersonale: 'angela-lopez-social-media-manager.jpg'
   },
   {
@@ -30,14 +32,14 @@ const persone = [
     imgPersonale: 'barbara-ramos-graphic-designer.jpg'
   }
 ];
-console.log(persone)
-
 //utilizzo il 'for...of' per 
-let persona = '';
-for (const persona of persone){
-  console.log(persona)
+
+for (let persona of persone){
+  persona.classlist.add('card');
+  cardBox.innerHTML += persona;
 }
+console.log(cardResult)
 //utilizzo il 'for...in' per 
-for (const persona in persone){
+for (let persona in persone){
   console.log(persone[persona])
 }
