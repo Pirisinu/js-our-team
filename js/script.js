@@ -31,3 +31,13 @@ const persone = [
   }
 ];
 console.log(persone)
+
+//utilizzo il 'for...of' per 
+let persona = '';
+for (const persona of persone){
+  console.log(persona)
+}
+//utilizzo il 'for...in' per 
+for (const persona in persone){
+  console.log(persone[persona])
+}

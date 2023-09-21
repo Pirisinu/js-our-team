@@ -31,7 +31,7 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.*
     - Nome
     - Lavoro
     - La sua foto
-1. 
+1.  Aggiungo ciclo for per scorrere nell'array
 1. 
 1. 
 
